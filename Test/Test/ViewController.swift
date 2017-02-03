@@ -3,7 +3,7 @@
 //  Test
 //
 //  Created by Pieter Linde on 2017/02/02.
-//  Copyright © 2017 Pieter Linde. All rights reserved.
+//  Copyright © 2017 Pieter Linde. All rights reserved..
 //
 
 import UIKit
