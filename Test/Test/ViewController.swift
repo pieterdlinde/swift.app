@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     var counter = 0;
-    
+    @IBOutlet weak var txtBox1: UITextField!
+    @IBOutlet weak var txtBox2: UITextField!
     @IBOutlet weak var MyTestLable: UILabel!
+    
     @IBAction func ButtonPress(_ sender: UIButton) {
-        counter += 1
-        MyTestLable.text = String(counter);
+        MyTestLable.text = txtBox1.text! + txtBox2.text!
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        MyTestLable.text="hahahah"
+       
     }
 
     override func didReceiveMemoryWarning() {
