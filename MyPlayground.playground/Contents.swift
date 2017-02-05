@@ -28,3 +28,11 @@ age = 1
 
 Double(age) + Double(weight)
 
+var testArray = [10,15,9,987,4,451,51,654,6]
+testArray.count
+
+testArray[0] = 1
+
+testArray.insert(99, at:1)
+
+
