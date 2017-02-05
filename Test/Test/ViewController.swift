@@ -15,19 +15,25 @@ class ViewController: UIViewController {
     @IBOutlet weak var MyTestLable: UILabel!
     
     @IBAction func ButtonPress(_ sender: UIButton) {
-        MyTestLable.text = "\(Double(txtBox1.text!)! + Double(txtBox2.text!)!)"
+        var addition = false
+        
+        if addition{
+            MyTestLable.text = "\(Double(txtBox1.text!)! + Double(txtBox2.text!)!)"
+        }else{
+            MyTestLable.text = "\(Double(txtBox1.text!)! - Double(txtBox2.text!)!)"
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
