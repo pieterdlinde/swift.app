@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var MyTestLable: UILabel!
     
     @IBAction func ButtonPress(_ sender: UIButton) {
-        MyTestLable.text = txtBox1.text! + txtBox2.text!
+        MyTestLable.text = "\(Double(txtBox1.text!)! + Double(txtBox2.text!)!)"
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -20,13 +20,11 @@ a*b
 5/8.0
 
 var age = 27
-var weight = 18.1
+var weight = 18
 
 Int(age) * Int(weight)
 
 age = 1
 
-
-
-
+Double(age) + Double(weight)
 
